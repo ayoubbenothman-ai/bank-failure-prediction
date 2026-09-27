@@ -59,8 +59,8 @@ data/df_test_FDIC_defaults_1Y.h5
 The TensorFlow logistic regression reaches a precision of 96.3% and a recall of 96.9% on failed banks.
 
 <p align="center">
-  <img src="images/eda_scatter.png" width="55%" alt="Failed vs non-failed banks">
-  <img src="images/roc_logit.png" width="40%" alt="ROC curve, logistic regression">
+  <img src="images/failure_scatter.png" width="55%" alt="Failed vs non-failed banks">
+  <img src="images/roc logtistic regression.png" width="40%" alt="ROC curve, logistic regression">
 </p>
 
 ### Key findings
