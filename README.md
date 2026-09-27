@@ -60,7 +60,7 @@ The TensorFlow logistic regression reaches a precision of 96.3% and a recall of 
 
 <p align="center">
   <img src="images/failure_scatter.png" width="55%" alt="Failed vs non-failed banks">
-  <img src="images/roc-logtistic-regression.png" width="40%" alt="ROC curve, logistic regression">
+  <img src="images/roc-logistic-regression.png" width="40%" alt="ROC curve, logistic regression">
 </p>
 
 ### Findings
