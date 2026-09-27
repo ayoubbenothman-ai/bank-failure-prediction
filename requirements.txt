@@ -1,0 +1,8 @@
+numpy>=2.0
+pandas
+matplotlib
+scikit-learn>=1.0
+statsmodels
+tables>=3.9        # needed by pandas.read_hdf
+tensorflow>=2.0    # TF1 code runs via tensorflow.compat.v1
+jupyter
