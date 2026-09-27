@@ -60,10 +60,10 @@ The TensorFlow logistic regression reaches a precision of 96.3% and a recall of 
 
 <p align="center">
   <img src="images/failure_scatter.png" width="55%" alt="Failed vs non-failed banks">
-  <img src="images/roc logtistic regression.png" width="40%" alt="ROC curve, logistic regression">
+  <img src="images/roc-logtistic-regression.png" width="40%" alt="ROC curve, logistic regression">
 </p>
 
-### Key findings
+### Findings
 
 - **Bank fundamentals drive the prediction, macro variables do not.** In the statsmodels fit, the predictors significant at the 5% level are size (−), equity / assets (−), non-performing loans (+), core deposits (−), liquid assets (−) and loss provisions (+). None of the seven macroeconomic variables is significant. This makes sense for a cross-section in which banks observed at the same date share the same macro values, so macro variables cannot explain which banks fail.
 - **A simple logistic regression is as good as the neural network.** The network's 0.6-point accuracy edge amounts to about two banks out of 331, well within the noise of a single train/test split.
